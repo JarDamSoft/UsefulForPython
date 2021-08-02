@@ -1,3 +1,7 @@
+####################################################################################################
+#                            MULTIPLE VARIABLE ASSIGNMENTS                                         #
+####################################################################################################
+
 # we can assign different values for different variables in one line of code:
 height, width = 1000, 500
 print(height, width)

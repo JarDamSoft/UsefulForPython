@@ -1,11 +1,15 @@
-# Unpacking collections of data
+#############################################################################
+#                   UNPACKING COLLECTIONS OF DATA                           #
+#############################################################################
 
 list_example = [1, 2, 3, 4, 5]
 tuple_example = ("Test", 1, 5, 10)
-dictionary_example = {1: "Test1", 2: [2, 1, 3]}
+dictionary_example = {"1": "Test1", "2": [2, 1, 3]}
 string_example = "Testowy"
 
-# the old way to apply unpacking:
+# ---------------------------------------------------------------------------
+# The old way to apply unpacking:
+# ---------------------------------------------------------------------------
 a = list_example[0]
 b = list_example[1]
 c = list_example[2]
@@ -30,3 +34,13 @@ a3, b3 = dictionary_example.values()
 print(a3, b3)
 a4, b4 = dictionary_example.items()
 print(a4, b4)
+
+print("\n------------------------------------------")
+
+# ---------------------------------------------------------------------------
+# Best method to unpack collections:
+# ---------------------------------------------------------------------------
+print(*list_example)
+print(*tuple_example)
+print(**dictionary_example)
+print(*string_example)

@@ -1,4 +1,7 @@
-# examples for use of ZIP method
+##############################################################
+#                   ZIP METHOD                               #
+##############################################################
+
 names = ["Damian", "Patryk", "Wojtek", "Adam"]
 age = [20, 30, 25, 22]
 colors = ["Green", "Blue", "Black", "White", "Pink"]
